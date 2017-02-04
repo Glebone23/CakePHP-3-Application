@@ -1,0 +1,50 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300';
+body {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 100;
+    padding: 0;
+}
+.menu {
+    width: 100%;
+    background: white;
+    border-bottom: 1px solid #b2b3b3;
+    padding: 1.3em;
+    /*position: fixed;*/
+}
+.auth-btns {
+    text-align: right;
+    font-weight: bold;
+}
+.login-btn {
+    width: 100%;
+    background: #3897f0;
+    border-color: #3897f0;
+    border-radius: 0;
+}
+.login-btn:hover {
+    width: 100%;
+    background: #3897f0;
+    border-color: #3897f0;
+}
+.log-form {
+    background: white;
+    padding: 1em;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top:2%;
+}
+.log-form input {
+    padding: 1em;
+    height:35px;
+}
+.log-form label {
+    width: 100%;
+}
+.fail {
+    color: darkred;
+    font-size:13px;
+}
+.fixed-menu {
+    position:fixed !important;
+    z-index: 999;
+}
